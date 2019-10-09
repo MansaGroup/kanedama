@@ -5,7 +5,7 @@ We encountered a scenario similar to this one during our 1st release and we're c
 
 ## Exercise
 
-We need you to : 
+We need you to: 
 
  1. Find the **average amount of positive transactions** for the **6 months** prior to the *most recent transaction*. To clarify, the formula is:  
  Sum of positive transactions / Number of positive transactions
@@ -14,8 +14,7 @@ We need you to :
 
 ## API
 
-We set up a minimal REST API with 3 endpoint :
-
+We set up a minimal REST API with 3 endpoints:
 
 Endpoint  | Data | Method
 ------------ | ------------- | ---------
@@ -25,16 +24,16 @@ Endpoint  | Data | Method
 
 Root endpoint is : https://kata.getmansa.com/
 
-You can find the *Data Transfer Object* (DTO) for the answer object in the src/dto folder of this repo. You will also find *Response Objects* (RO) for the accounts and the transactions in the src/ro folder.
+You can find the *Data Transfer Object* (DTO) for the answer object in the `src/common/dto/` folder of this repo. You will also find *Response Objects* (RO) for the accounts and the transactions in the `src/common/ro/` folder.
 
 ## Project
 
 **Your project must be written in TypeScript**
 
-**You have full control over the project structure**
+**You have to deliver a working NestJS project**
 
 We want you to write code that meets the highest industry standard. It must be **fast**, **robust**, **readable**, and you need to **include tests** as well.
 
-Good luck and have fun !
+Good luck and have fun!
 
 *For any question, feel free to send me an email at remy.tinco '@' getmansa.com.*
